@@ -1,0 +1,64 @@
+<script src="http://use.edgefonts.net/source-code-pro.js"></script>
+
+<style>
+	/* Import the "Computer Modern" font */
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    }
+	
+	/* Style for all the cells */
+	div.cell{
+        width:900px;
+        margin-left:8% !important;
+        margin-right:auto;
+    }
+
+	/* Text in markdown cells */
+    div.text_cell_render{
+        font-family: Computer Modern, Liberation Sans, Arial, Helvetica, sans-serif;
+        line-height: 130%;
+        font-size: 120%;
+ /*       width:800px;
+        margin-left:auto;
+        margin-right:auto;*/
+    }
+
+	/* Quoted text in markdown cells */
+	/*blockquote  p {
+	margin: 1em 2em;
+	line-height: 140%;
+    }*/
+
+	/* Input and output prompt (In[1], Out[1], ...) */
+	div.prompt{
+		font-family: "Source Code Pro", source-code-pro, Computer Modern, Consolas, monospace;
+	}
+
+	/* Output text (i.e. output of print or text display) */
+	div.output_area pre{
+		font-family: "Source Code Pro", source-code-pro, Computer Modern, Consolas, monospace;
+	}
+
+	/* Text in code markup, within markdown cells */
+    .rendered_html code {
+	font-family: "Source Code Pro", source-code-pro, Computer Modern, Consolas, monospace;
+	background-color: #f7f7f7;
+	border: 1px solid #dddddd;
+	color: black;
+	line-height: 1.1em;
+	padding: 0.15em;
+	font-size: 80%;
+    }
+
+	/* Text in code cells */
+    .CodeMirror{
+            font-family: "Source Code Pro", source-code-pro,  Consolas, monospace;
+    }
+	
+    /* Whether to displays In[] and Out[] prompt */
+	/*.prompt{
+        display: None;
+    }*/
+    
+</style>
